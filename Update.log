@@ -1,0 +1,126 @@
+[Done]
+0927_154505.8468=(S)_IsNetfficeLogin : //OK
+0927_154505.9156=End to (None)
+[LastLog]
+Action=Check
+Key=0927_155011.3772
+[None]
+0927_154505.9186=Begin from (Done)
+0927_154505.9226=(S)_Window_Loaded(): abort: False abnormalStop: False  rollbackstop : False //OK
+0927_154505.9246=(S)_SetPage(): phaseData: Hnc.Update.Updater.Page.PhaseCheck//OK
+0927_154505.9316=(S)_Thread_SetPageFunc()//OK
+0927_154505.9326=(S)_Thread_SetPageFunc(): phaseData: Hnc.Update.Updater.Page.PhaseCheck//OK
+0927_154506.1959=(S)_Function_OpenSlide(): m_currentPhaseData: Hnc.Update.Updater.Page.PhaseCheck//OK
+0927_154506.2019=(S)_OpenPhaseUISlide(): m_currentPhaseData: Hnc.Update.Updater.Page.PhaseCheck//OK
+0927_154506.2099=(S)_DEBUG: Entering PhaseCheck.Begin()//OK
+0927_154506.2129=Hosts File Check Start :  : OK
+0927_154506.2448=(S)_hosts File Check :: update.hancom.com Not exist!//OK
+0927_154506.2478=(S)_DEBUG: Entering PhaseCheck.Thread_UpdateCheck()//OK
+0927_154506.2508=(S)_DEBUG: Entering UpdateMain.Research()//OK
+0927_154506.2518=End to (Check)
+[Check]
+0927_154506.2528=Begin from (None)
+0927_154506.2538=SetProtocol : Hnc.Update.Protocol.ProtocolTCP
+0927_154506.4193=SetProtocol : OK
+0927_154506.5510=(S)_DEBUG: Entering CoreResearch.GetUpdateList()//OK
+0927_154506.5590=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO, projectLocal == R8, deltaLocal == 0 : 
+0927_154516.8738=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO/R8, project == R8, delta == 0, auth_response == 1, errCode == 0 : 
+0927_154516.8768=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO/R8 : 
+0927_154516.8778=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO, projectServer == R8, deltaServer == 0 : 
+0927_154516.8798=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0927_154516.8815=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO, product is latest : 
+0927_154516.8829=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO, projectLocal == R30, deltaLocal == 0 : 
+0927_154517.1467=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO/R32, project == R32, delta == 0, auth_response == 1, errCode == 0 : 
+0927_154517.1507=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO, cdnPath == http://cdn.hancom.com/update/HOffice_NEO/R32 : 
+0927_154517.1537=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO, projectServer == R32, deltaServer == 0 : 
+0927_154517.1567=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0927_154517.1597=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO, product is not latest : 
+0927_154517.1637=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : 
+0927_154517.2245=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, uniqueID: 437676947036878632717839136292765228//OK
+0927_154517.2255=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, clientIP: 10.154.80.27//OK
+0927_154517.2275=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676947036878632717839136292765228;10.154.80.27//OK
+0927_154517.4298=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, Ret val of GetDownloadKeyAndURL() == OK//OK
+0927_154517.4328=(S)_DEBUG: IsForceUpdate: False//OK
+0927_154538.6351=(S)_DEBUG: in HttpService._DownloadByRange(). webRequest.GetResponse() exception System.Net.WebException: 원격 서버에 연결할 수 없습니다. ---> System.Net.Sockets.SocketException: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 111.221.35.212:80
+0927_154559.6403=(S)_DEBUG: in HttpService._DownloadByRange(). webRequest.GetResponse() exception System.Net.WebException: 원격 서버에 연결할 수 없습니다. ---> System.Net.Sockets.SocketException: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 111.221.35.212:80
+0927_154620.6448=(S)_DEBUG: in HttpService._DownloadByRange(). webRequest.GetResponse() exception System.Net.WebException: 원격 서버에 연결할 수 없습니다. ---> System.Net.Sockets.SocketException: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 111.221.35.212:80
+0927_154620.6518=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : FrontNotice
+0927_154620.7227=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, uniqueID: 437676947036878632717839136292765228//OK
+0927_154620.7246=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, clientIP: 10.154.80.27//OK
+0927_154620.7256=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676947036878632717839136292765228;10.154.80.27//OK
+0927_154620.9282=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0927_154620.9292=(S)_DEBUG: IsForceUpdate: False//OK
+0927_154620.9302=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : SelectNotice
+0927_154620.9784=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, uniqueID: 437676947036878632717839136292765228//OK
+0927_154620.9795=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, clientIP: 10.154.80.27//OK
+0927_154620.9804=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676947036878632717839136292765228;10.154.80.27//OK
+0927_154621.1836=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0927_154621.1866=(S)_DEBUG: IsForceUpdate: False//OK
+0927_154621.1886=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : EndNotice
+0927_154621.2357=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, uniqueID: 437676947036878632717839136292765228//OK
+0927_154621.2367=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, clientIP: 10.154.80.27//OK
+0927_154621.2377=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676947036878632717839136292765228;10.154.80.27//OK
+0927_154621.4405=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0927_154621.4425=(S)_DEBUG: IsForceUpdate: False//OK
+0927_154621.4455=(S)_DEBUG: FrontNotice URI == http://www.hancom.com/viewer/netffice/index.html//OK
+0927_154621.4475=Update List error : Error_Cannot_Download_MainFile
+0927_154621.4584=Netffice Auth Page Ended State == Error, Message == 업데이트 파일을 다운로드할 수 없습니다. : 
+0927_154621.4674=(S)_SetPage(): phaseData: Hnc.Update.Updater.Page.PhaseEnd//OK
+0927_154621.4704=(S)_Thread_SetPageFunc()//OK
+0927_154621.4704_0=(S)_DEBUG: Leaving PhaseCheck.Thread_UpdateCheck()//OK
+0927_154621.4734=(S)_Thread_SetPageFunc(): phaseData: Hnc.Update.Updater.Page.PhaseEnd//OK
+0927_154621.4754=(S)_Function_CloseSlide(): m_currentPhaseData: Hnc.Update.Updater.Page.PhaseCheck//OK
+0927_154621.4774=(S)_ClosePhaseUISlide()//OK
+0927_154621.4794=(S)_Function_OpenSlide(): m_currentPhaseData: Hnc.Update.Updater.Page.PhaseEnd//OK
+0927_154621.4814=(S)_OpenPhaseUISlide(): m_currentPhaseData: Hnc.Update.Updater.Page.PhaseEnd//OK
+0927_154621.4834=(S)_DEBUG: Entering PhaseEnd.Begin()//OK
+0927_155010.4505=(S)_SetPage(): phaseData: Hnc.Update.Updater.Page.PhaseCheck//OK
+0927_155010.4544=(S)_Thread_SetPageFunc()//OK
+0927_155010.4554=(S)_Thread_SetPageFunc(): phaseData: Hnc.Update.Updater.Page.PhaseCheck//OK
+0927_155010.4564=(S)_Function_CloseSlide(): m_currentPhaseData: Hnc.Update.Updater.Page.PhaseEnd//OK
+0927_155010.4584=(S)_ClosePhaseUISlide()//OK
+0927_155010.4594=(S)_Function_OpenSlide(): m_currentPhaseData: Hnc.Update.Updater.Page.PhaseCheck//OK
+0927_155010.4604=(S)_OpenPhaseUISlide(): m_currentPhaseData: Hnc.Update.Updater.Page.PhaseCheck//OK
+0927_155010.4614=(S)_DEBUG: Entering PhaseCheck.Begin()//OK
+0927_155010.4624=Hosts File Check Start :  : OK
+0927_155010.4644=(S)_hosts File Check :: update.hancom.com Not exist!//OK
+0927_155010.4654=(S)_DEBUG: Entering PhaseCheck.Thread_UpdateCheck()//OK
+0927_155010.4664=(S)_DEBUG: Entering UpdateMain.Research()//OK
+0927_155010.4909=SetProtocol : OK
+0927_155010.5791=(S)_DEBUG: Entering CoreResearch.GetUpdateList()//OK
+0927_155010.5811=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO, projectLocal == R8, deltaLocal == 0 : 
+0927_155010.8282=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO/R8, project == R8, delta == 0, auth_response == 1, errCode == 0 : 
+0927_155010.8322=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO/R8 : 
+0927_155010.8352=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO, projectServer == R8, deltaServer == 0 : 
+0927_155010.8385=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0927_155010.8415=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO, product is latest : 
+0927_155010.8445=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO, projectLocal == R30, deltaLocal == 0 : 
+0927_155011.0970=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO/R32, project == R32, delta == 0, auth_response == 1, errCode == 0 : 
+0927_155011.1010=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO, cdnPath == http://cdn.hancom.com/update/HOffice_NEO/R32 : 
+0927_155011.1040=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO, projectServer == R32, deltaServer == 0 : 
+0927_155011.1070=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0927_155011.1100=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO, product is not latest : 
+0927_155011.1130=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : 
+0927_155011.1669=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, uniqueID: 437676947036878632717839136292765228//OK
+0927_155011.1689=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, clientIP: 10.154.80.27//OK
+0927_155011.1699=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676947036878632717839136292765228;10.154.80.27//OK
+0927_155011.3742=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, Ret val of GetDownloadKeyAndURL() == OK//OK
+0927_155011.3772=(S)_DEBUG: IsForceUpdate: False//OK
+   위치: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   위치: System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   위치: System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Net.HttpWebRequest.GetResponse()
+   위치: Hnc.Update.Protocol.HttpService._DownloadByRange(String url, String localPath, Int32 start, Int32& recvLength, Int32& contentsLength)//OK
+   위치: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   위치: System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   위치: System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Net.HttpWebRequest.GetResponse()
+   위치: Hnc.Update.Protocol.HttpService._DownloadByRange(String url, String localPath, Int32 start, Int32& recvLength, Int32& contentsLength)//OK
+   위치: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   위치: System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   위치: System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Net.HttpWebRequest.GetResponse()
+   위치: Hnc.Update.Protocol.HttpService._DownloadByRange(String url, String localPath, Int32 start, Int32& recvLength, Int32& contentsLength)//OK
